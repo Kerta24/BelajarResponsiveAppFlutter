@@ -46,11 +46,11 @@ class Landing extends StatelessWidget {
                         Container(
                           color: Colors.red,
                           width: mediaQueryWidth,
-                          height: mediaQueryHeight * 0.4,
+                          height: bodyHeigt * 0.5,
                         ),
                         Container(
                           // margin: EdgeInsets.all(40),
-                          height: mediaQueryHeight * 0.4,
+                          height: bodyHeigt * 0.5,
                           color: Colors.amber,
                           child: GridView.builder(
                               gridDelegate:
@@ -72,11 +72,11 @@ class Landing extends StatelessWidget {
                         Container(
                           color: Colors.red,
                           width: mediaQueryWidth,
-                          height: mediaQueryHeight * 0.3,
+                          height: bodyHeigt * 0.3,
                         ),
                         Container(
                           // margin: EdgeInsets.all(40),
-                          height: mediaQueryHeight * 0.6,
+                          height: bodyHeigt * 0.7,
                           color: Colors.amber,
                           child: ListView.builder(
                               itemCount: 100,
